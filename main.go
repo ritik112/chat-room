@@ -36,6 +36,7 @@ func main() {
 	for {
 		select {
 		//read incoming connections
+			// go ritik go
 		case conn := <-conns:
 			aconns[conn] = i
 			i++
